@@ -27,14 +27,14 @@ const ShowCiudades = () => {
     <><div className='d-grid gap-2'>
       <div class='card text-white bg-dark mb-3'>
       <h3>Ciudades</h3>
-         <Link className='btn btn-success btn-lg mt-2 mb-2 text-white'>Nuevo</Link>
+         <Link to={'/createCiudad'} className='btn btn-success btn-lg mt-2 mb-2 text-white'>Nuevo</Link>
       
       <table className='table table-striped'>
               <thead className='bg-primary text-white '>
                 <tr>
                     <th>Nombre</th>
-                    <th>Región</th>
                     <th>Provincia</th>
+                    <th>Región</th>
                 </tr>
               </thead>
               <tbody>
